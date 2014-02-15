@@ -19,6 +19,7 @@ namespace Print_Admins
                 info.Arguments = "-on \"" + printer_name + "\" -ot prn -actn ace -ace \"n:NKSD PrintAdmins;p:full\"";
                 Process.Start(info);
             }
+            Console.ReadLine();
         }
     }
 }
