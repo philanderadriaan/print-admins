@@ -4,3 +4,6 @@ C:\Users\padriaan.NKSCHOOLS\documents\visual studio 2013\Projects\Print Admins\P
 C:\Users\padriaan.NKSCHOOLS\documents\visual studio 2013\Projects\Print Admins\Print Admins\obj\Debug\Print Admins.csprojResolveAssemblyReference.cache
 C:\Users\padriaan.NKSCHOOLS\documents\visual studio 2013\Projects\Print Admins\Print Admins\obj\Debug\Print Admins.exe
 C:\Users\padriaan.NKSCHOOLS\documents\visual studio 2013\Projects\Print Admins\Print Admins\obj\Debug\Print Admins.pdb
+C:\Users\P\Backup\Visual Studio\Print Admins\Print Admins\bin\Debug\Print Admins.exe.config
+C:\Users\P\Backup\Visual Studio\Print Admins\Print Admins\obj\Debug\Print Admins.exe
+C:\Users\P\Backup\Visual Studio\Print Admins\Print Admins\obj\Debug\Print Admins.pdb
