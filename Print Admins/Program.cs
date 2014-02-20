@@ -18,7 +18,6 @@ namespace Print_Admins
                 info.FileName = "SetACL.exe";
                 info.Arguments = "-on \"" + printer_name + "\" -ot prn -actn ace -ace \"n:NKSD PrintAdmins;p:full\"";
                 Process.Start(info);
-
             }
             Console.ReadLine();
         }
