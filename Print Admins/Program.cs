@@ -8,11 +8,17 @@ using System.Threading.Tasks;
 using System.Drawing;
 using System.Windows.Forms;
 
-
 namespace Print_Admins
 {
     class Program : System.Windows.Forms.Form
     {
+        Program() // ADD THIS CONSTRUCTOR
+        {
+
+            InitializeComponent();
+
+        }
+
         static void Main()
         {
             Application.EnableVisualStyles();
@@ -27,6 +33,19 @@ namespace Print_Admins
             }
 
             Application.Run(new Program());
+            Application.Exit();
+        }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // Program
+            // 
+            this.ClientSize = new System.Drawing.Size(302, 290);
+            this.Name = "Program";
+            this.ResumeLayout(false);
+
         }
     }
 }
