@@ -14,5 +14,11 @@ namespace Print_Admins
         {
             this.path = path;
         }
+
+        public List<string> read()
+        {
+            List<string> data = new List<string>();
+            return data;
+        }
     }
 }
