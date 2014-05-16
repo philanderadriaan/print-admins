@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Drawing.Printing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +12,7 @@ namespace Print_Admins
     {
         static void Main(string[] args)
         {
-            foreach (String printer_name in System.Drawing.Printing.PrinterSettings.InstalledPrinters)
+            foreach (string printer_name in PrinterSettings.InstalledPrinters)
             {
                 ProcessStartInfo info = new ProcessStartInfo();
                 info.UseShellExecute = false;
