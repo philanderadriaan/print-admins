@@ -11,10 +11,12 @@ using System.Windows.Forms;
 
 namespace Print_Admins
 {
-    class Program
+    class Program : System.Windows.Forms.Form
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            Application.EnableVisualStyles();
+
             foreach (string printer_name in PrinterSettings.InstalledPrinters)
             {
                 ProcessStartInfo info = new ProcessStartInfo();
@@ -23,6 +25,8 @@ namespace Print_Admins
                 info.Arguments = "-on \"" + printer_name + "\" -ot prn -actn ace -ace \"n:NKSD PrintAdmins;p:full\"";
                 Process.Start(info);
             }
+
+            Application.Run(new Program());
         }
     }
 }
