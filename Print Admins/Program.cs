@@ -42,10 +42,9 @@ namespace Print_Admins
             // 
             // Program
             // 
-            this.ClientSize = new System.Drawing.Size(302, 290);
+            this.ClientSize = new System.Drawing.Size(300, 300);
             this.Name = "Program";
             this.ResumeLayout(false);
-
         }
     }
 }
